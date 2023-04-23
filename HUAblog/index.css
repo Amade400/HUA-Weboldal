@@ -1,0 +1,40 @@
+.bg{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/HUA_header.jpg) ;
+}
+
+#MainContent{
+    margin-top: 3rem;
+   /*background-color: rgba(74,74,74,0.75)!important;*/
+   background: black;
+
+}
+
+#news-sor{
+    border-bottom: rgb(74,74,74) 2px solid;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#news-kep{
+    margin-bottom: 20px;
+}
+
+.carouselCim{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}

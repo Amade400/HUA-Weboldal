@@ -1,0 +1,33 @@
+label, h1, h3, span{
+    color: white!important;
+}
+p{
+    color: grey!important;
+}
+
+a, a:hover, a:active a:disabled{
+   color: white;
+}
+
+
+input{
+    background-color: #232323!important; 
+    color: white!important;
+}
+
+html, body {
+    margin: 0; height: 100%; overflow: hidden
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one */
+    display: flex;
+    align-items: center;
+}
+
+td {
+      padding: 0px;
+ }

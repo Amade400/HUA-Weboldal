@@ -1,0 +1,39 @@
+<?php 
+    session_start();
+    unset($_SESSION["id"]);
+    session_destroy();
+?>
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="shortcut icon" type="image" href="../img/HUA_logosmall.png" />
+
+    <link rel="stylesheet" href="../css/reglogin.css" type="text/css">
+
+        <title>Átirányítás</title>
+  </head>
+<body class="bg-secondary align-items-center">
+<div class="vertical-center justify-content-center">
+    <div class="container-fluid rounded col-md-6 col-sm-9 bg-dark">
+        <div class="header pt-3 text-center" id="labeltext">
+                <h3 class="text-light">Tankok sikeresen felvéve.</h3>
+        </div>
+        <hr class="col-xs-12 bg-white my-3">
+        <div class="header pt-3 text-center" id="labeltext">
+                <h3 class="text-light">Sikeresen jelentkeztél hozzánk! Játékban a megadott játékosnév alatt keresni fogunk, ha felkeltetted a vezetőség figyelmét!</h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<?php 
+    
+    header("Refresh:5; url=../index.php");
+?>

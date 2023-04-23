@@ -1,0 +1,31 @@
+.bg{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/HUA_header.jpg) ;
+}
+body
+{
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    height: 100%; 
+    overflow: hidden
+}
+
+#leiras, #szoveg{
+    padding-top: 1rem;
+}
+
+#buttonholder{
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    bottom: 5px;
+}

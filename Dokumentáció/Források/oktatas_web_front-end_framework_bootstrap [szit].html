@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap -->
+<html lang="hu" dir="ltr" class="js desktop"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>oktatas:web:front-end_framework:bootstrap [szit]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki">
+<meta name="theme-color" content="#008800">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="oktatas,web,front-end_framework,bootstrap">
+<link rel="search" type="application/opensearchdescription+xml" href="https://szit.hu/lib/exe/opensearch.php" title="szit">
+<link rel="start" href="https://szit.hu/">
+<link rel="contents" href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=index" title="Áttekintő">
+<link rel="manifest" href="https://szit.hu/lib/exe/manifest.php">
+<link rel="alternate" type="application/rss+xml" title="Legfrissebb változások" href="https://szit.hu/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Aktuális névtér" href="https://szit.hu/feed.php?mode=list&amp;ns=oktatas:web:front-end_framework">
+<link rel="alternate" type="text/html" title="Sima HTML" href="https://szit.hu/doku.php?do=export_xhtml&amp;id=oktatas:web:front-end_framework:bootstrap">
+<link rel="alternate" type="text/plain" title="Wiki-jelölőnyelv" href="https://szit.hu/doku.php?do=export_raw&amp;id=oktatas:web:front-end_framework:bootstrap">
+<link rel="canonical" href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap">
+<link rel="stylesheet" type="text/css" href="./oktatas_web_front-end_framework_bootstrap [szit]_files/css.php">
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='oktatas:web:front-end_framework';var JSINFO = {"id":"oktatas:web:front-end_framework:bootstrap","namespace":"oktatas:web:front-end_framework","ACT":"show","useHeadingNavigation":0,"useHeadingContent":0};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="./oktatas_web_front-end_framework_bootstrap [szit]_files/jquery.php"></script>
+<script type="text/javascript" charset="utf-8" src="./oktatas_web_front-end_framework_bootstrap [szit]_files/js.php"></script><style id="iris-css">.iris-picker{display:block;position:relative}.iris-picker,.iris-picker *{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input+.iris-picker{margin-top:4px}.iris-error{background-color:#ffafaf}.iris-border{border-radius:3px;border:1px solid #aaa;width:200px;background-color:#fff}.iris-picker-inner{position:absolute;top:0;right:0;left:0;bottom:0}.iris-border .iris-picker-inner{top:10px;right:10px;left:10px;bottom:10px}.iris-picker .iris-square-inner{position:absolute;left:0;right:0;top:0;bottom:0}.iris-picker .iris-square,.iris-picker .iris-slider,.iris-picker .iris-square-inner,.iris-picker .iris-palette{border-radius:3px;box-shadow:inset 0 0 5px rgba(0,0,0,.4);height:100%;width:12.5%;float:left;margin-right:5%}.iris-picker .iris-square{width:76%;margin-right:10%;position:relative}.iris-picker .iris-square-inner{width:auto;margin:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-square-inner,.iris-ie-9 .iris-palette{box-shadow:none;border-radius:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-palette{outline:1px solid rgba(0,0,0,.1)}.iris-ie-lt9 .iris-square,.iris-ie-lt9 .iris-slider,.iris-ie-lt9 .iris-square-inner,.iris-ie-lt9 .iris-palette{outline:1px solid #aaa}.iris-ie-lt9 .iris-square .ui-slider-handle{outline:1px solid #aaa;background-color:#fff;-ms-filter:"alpha(Opacity=30)"}.iris-ie-lt9 .iris-square .iris-square-handle{background:0;border:3px solid #fff;-ms-filter:"alpha(Opacity=50)"}.iris-picker .iris-strip{margin-right:0;position:relative}.iris-picker .iris-strip .ui-slider-handle{position:absolute;background:0;margin:0;right:-3px;left:-3px;border:4px solid #aaa;border-width:4px 3px;width:auto;height:6px;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.2);opacity:.9;z-index:5;cursor:ns-resize}.iris-strip .ui-slider-handle:before{content:" ";position:absolute;left:-2px;right:-2px;top:-3px;bottom:-3px;border:2px solid #fff;border-radius:3px}.iris-picker .iris-slider-offset{position:absolute;top:11px;left:0;right:0;bottom:-3px;width:auto;height:auto;background:transparent;border:0;border-radius:0}.iris-picker .iris-square-handle{background:transparent;border:5px solid #aaa;border-radius:50%;border-color:rgba(128,128,128,.5);box-shadow:none;width:12px;height:12px;position:absolute;left:-10px;top:-10px;cursor:move;opacity:1;z-index:10}.iris-picker .ui-state-focus .iris-square-handle{opacity:.8}.iris-picker .iris-square-handle:hover{border-color:#999}.iris-picker .iris-square-value:focus .iris-square-handle{box-shadow:0 0 2px rgba(0,0,0,.75);opacity:.8}.iris-picker .iris-square-handle:hover::after{border-color:#fff}.iris-picker .iris-square-handle::after{position:absolute;bottom:-4px;right:-4px;left:-4px;top:-4px;border:3px solid #f9f9f9;border-color:rgba(255,255,255,.8);border-radius:50%;content:" "}.iris-picker .iris-square-value{width:8px;height:8px;position:absolute}.iris-ie-lt9 .iris-square-value,.iris-mozilla .iris-square-value{width:1px;height:1px}.iris-palette-container{position:absolute;bottom:0;left:0;margin:0;padding:0}.iris-border .iris-palette-container{left:10px;bottom:10px}.iris-picker .iris-palette{margin:0;cursor:pointer}.iris-square-handle,.ui-slider-handle{border:0;outline:0}</style>
+<!--<![endif]-->
+    <script type="text/javascript">
+    //<![CDATA[
+    function epub_LoadScript( url )
+    {
+     document.write( '<scr' + 'ipt type="text/javascript" src="' + url + '"><\/scr' + 'ipt>' ) ;
+    }
+//]]>
+  </script>    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="https://szit.hu/lib/tpl/dokuwiki/images/favicon.ico">
+<link rel="apple-touch-icon" href="https://szit.hu/lib/tpl/dokuwiki/images/apple-touch-icon.png">
+    </head>
+
+<body>
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_show tpl_dokuwiki     ">
+
+        
+<!-- ********** HEADER ********** -->
+<div id="dokuwiki__header"><div class="pad group">
+
+    
+    <div class="headings group">
+        <ul class="a11y skip">
+            <li><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#dokuwiki__content">ugrás a tartalomhoz</a></li>
+        </ul>
+
+        <h1><a href="https://szit.hu/doku.php?id=start" accesskey="h" title="[H]"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/logo.png" width="64" height="64" alt=""> <span>szit</span></a></h1>
+            </div>
+
+    <div class="tools group">
+        <!-- USER TOOLS -->
+                    <div id="dokuwiki__usertools">
+                <h3 class="a11y">Felhasználói eszközök</h3>
+                <ul>
+                    <li class="action login"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=login&amp;sectok=" title="Bejelentkezés" rel="nofollow"><span>Bejelentkezés</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 17.25V14H3v-4h7V6.75L15.25 12 10 17.25M8 2h9a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-4h2v4h9V4H8v4H6V4a2 2 0 0 1 2-2z"></path></svg></a></li>                </ul>
+            </div>
+        
+        <!-- SITE TOOLS -->
+        <div id="dokuwiki__sitetools">
+            <h3 class="a11y">Eszközök a webhelyen</h3>
+            <form action="https://szit.hu/doku.php?id=start" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search"><input type="hidden" name="id" value="oktatas:web:front-end_framework:bootstrap"><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="Keresés" autocomplete="on" id="qsearch__in" value=""><button value="1" type="submit" title="Keresés">Keresés</button><div id="qsearch__out" class="ajax_qsearch JSpopup" style="display: none;"></div></div></form>            <div class="mobileTools">
+                <form action="https://szit.hu/doku.php" method="get" accept-charset="utf-8"><div class="no"><input type="hidden" name="id" value="oktatas:web:front-end_framework:bootstrap"><select name="do" class="edit quickselect" title="Eszközök"><option value="">Eszközök</option><optgroup label="Eszközök az oldalon"><option value="edit">Oldalforrás megtekintése</option><option value="revisions">Korábbi változatok</option><option value="backlink">Hivatkozások</option></optgroup><optgroup label="Eszközök a webhelyen"><option value="recent">Legfrissebb változások</option><option value="media">Médiakezelő</option><option value="index">Áttekintő</option></optgroup><optgroup label="Felhasználói eszközök"><option value="login">Bejelentkezés</option></optgroup></select><button type="submit" style="display: none;">&gt;</button></div></form>            </div>
+            <ul>
+                <li class="action recent"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=recent" title="Legfrissebb változások [r]" rel="nofollow" accesskey="r">Legfrissebb változások</a></li><li class="action media"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=media&amp;ns=oktatas%3Aweb%3Afront-end_framework" title="Médiakezelő" rel="nofollow">Médiakezelő</a></li><li class="action index"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=index" title="Áttekintő [x]" rel="nofollow" accesskey="x">Áttekintő</a></li>            </ul>
+        </div>
+
+    </div>
+
+    <!-- BREADCRUMBS -->
+            <div class="breadcrumbs">
+                            <div class="youarehere"><span class="bchead">Itt vagy: </span><span class="home"><bdi><a href="https://szit.hu/doku.php?id=start" class="wikilink1" title="start">start</a></bdi></span> » <bdi><a href="https://szit.hu/doku.php?id=oktatas" class="wikilink1" title="oktatas">oktatas</a></bdi> » <bdi><a href="https://szit.hu/doku.php?id=oktatas:web" class="wikilink1" title="oktatas:web">web</a></bdi> » <bdi><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework" class="wikilink1" title="oktatas:web:front-end_framework">front-end_framework</a></bdi> » <bdi><span class="curid"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap" class="wikilink1" title="oktatas:web:front-end_framework:bootstrap">bootstrap</a></span></bdi></div>
+                                        <div class="trace"><span class="bchead">Nyomvonal:</span> <span class="bcsep">•</span> <span class="curid"><bdi><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap" class="breadcrumbs" title="oktatas:web:front-end_framework:bootstrap">bootstrap</a></bdi></span></div>
+                    </div>
+    
+
+
+    <hr class="a11y">
+</div></div><!-- /header -->
+
+        <div class="wrapper group">
+
+            
+            <!-- ********** CONTENT ********** -->
+            <div id="dokuwiki__content"><div class="pad group">
+                
+                <div class="pageId"><span>oktatas:web:front-end_framework:bootstrap</span></div>
+
+                <div class="page group">
+                                                            <!-- wikipage start -->
+                        <script type="text/javascript">
+    //<![CDATA[
+
+      if(!window._epub_show_throbber){	  
+        epub_LoadScript("https://szit.hu/lib/plugins/epub/script.js");
+      }
+
+    //]]>
+
+    </script><!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle open" style="cursor: pointer;"><strong><span>−</span></strong>Tartalomjegyzék</h3>
+<div style="min-height: 357.5px;">
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#bootstrap">Bootstrap</a></div>
+<ul class="toc">
+<li class="clear">
+<ul class="toc">
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#a_bootstraprol">A Bootstrapről</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#a_bootstrap_hasznalata">A Bootstrap használata</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#beszerzes">Beszerzés</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#hasznalat">Használat</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#mukoedes">Működés</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#elrendezes">Elrendezés</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#eltolas">Eltolás</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#fix_es_fluid_elrendezes">Fix és Fluid elrendezés</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#reszponziv_elrendezes">Reszponzív elrendezés</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#szinek">Színek</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#gombok">Gombok</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#gombcsoportok">Gombcsoportok</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#ikonok">Ikonok</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#lista">Lista</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#form">Form</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#beviteli_mezo">Beviteli mező</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#tabla">Tábla</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#kep">Kép</a></div></li>
+<li class="level3"><div class="li"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#navigacios_szalag">Navigációs szalag</a></div></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<p>
+<a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework" class="wikilink1" title="oktatas:web:front-end_framework">&lt; Front-end framework</a>
+</p>
+
+<h1 class="sectionedit1" id="bootstrap">Bootstrap</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"> <strong>Szerző:</strong> Rékási József</div>
+</li>
+<li class="level1"><div class="li"> Copyright © Rékási József, 2018</div>
+</li>
+<li class="level1"><div class="li"> Licenc: GNU Free Documentation License 1.3</div>
+</li>
+<li class="level1"><div class="li"> Web: <a href="http://szit.hu/" class="urlextern" target="_blank" title="http://szit.hu" rel="nofollow noopener">http://szit.hu</a></div>
+</li>
+</ul>
+
+</div>
+
+<h3 class="sectionedit2" id="a_bootstraprol">A Bootstrapről</h3>
+<div class="level3">
+
+<p>
+A Bootstrap nem más mint egy <abbr title="Cascading Style Sheets">CSS</abbr> és jQuery nyelveken megírt keretrendszer amely előre definiált utasításokkal és függvényekkel képes a weboldal dizájnját megjeleníteni. A keretrendszerben osztályok vannak definiálva melyeket hozzáadunk a megfelelő <abbr title="HyperText Markup Language">HTML</abbr> elemekhez. A Bootstrapel nagyon gyorsan lehet fejleszteni de az, hogy előre megírt osztályokkal dolgozunk nem jelenti azt, hogy nem szükséges az alap <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> és jQuery tudás. Sőt ahhoz, hogy változtatásokat tudjunk végrehajtani a kinézeten elég mélyen ismerni kell a <abbr title="Cascading Style Sheets">CSS</abbr> és jQuery használatát.
+A Bootstrap „mobil-first” elvet követ ami azt jelenti, hogy elsődlegesen a mobil eszközökön történő megjelenítésre fejlesztünk reszponzív weboldalakat de természetesen bármilyen eszközön megfelelően jelennek meg az oldalaink.
+</p>
+
+</div>
+
+<h2 class="sectionedit3" id="a_bootstrap_hasznalata">A Bootstrap használata</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit4" id="beszerzes">Beszerzés</h3>
+<div class="level3">
+
+<p>
+A használathoz szükséges a <abbr title="HyperText Markup Language">HTML</abbr> &lt;head&gt;&lt;/head&gt; tagek között beemelni a Bootstrap könyvtárak elérési útját. Ezt két féle képpen tudjuk megtenni. Vagy letöltjük a szükséges állományt a <a href="https://getbootstrap.com/" class="urlextern" target="_blank" title="https://getbootstrap.com" rel="nofollow noopener">https://getbootstrap.com</a> oldalról és utána lokálisan használjuk vagy ugyanezen az oldalon megtalálható CDN -t használjuk.
+</p>
+
+</div>
+
+<h3 class="sectionedit5" id="hasznalat">Használat</h3>
+<div class="level3">
+
+<p>
+Fontos, hogy a &lt;head&gt;&lt;/head&gt; tagek között az első három utasítás a következő legyen:
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">charset</span><span class="sy0">=</span><span class="st0">"utf-8"</span>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">http-equiv</span><span class="sy0">=</span><span class="st0">"X-UA-Compatible"</span> <span class="kw3">content</span><span class="sy0">=</span><span class="st0">"IE=edge"</span>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">"viewport"</span> <span class="kw3">content</span><span class="sy0">=</span><span class="st0">"width=device-width, initial-scale=1"</span>&gt;</span></pre>
+
+<p>
+Utána jöhetnek a könyvtárak elérési útjai
+</p>
+<pre class="code html4strict"><span class="sc-1">&lt;!-- itt használhatjuk a megfelelő CDN -eket is --&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/link.html"><span class="kw2">link</span></a> <span class="kw3">rel</span><span class="sy0">=</span><span class="st0">"stylesheet"</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"css/bootstrap.min.css"</span>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"js/bootstrap.min.js"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"js/jquery-3.3.1.min.js"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span></pre>
+
+</div>
+
+<h2 class="sectionedit6" id="mukoedes">Működés</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit7" id="elrendezes">Elrendezés</h3>
+<div class="level3">
+
+<p>
+A Bootstrap rétegkezelője (layout manager) úgynevezett hálós rendszerben működik, sorok és oszlopok helyezkednek el. Az oszlopok egységekre vannak osztva amelyeknek az összege mindig 12 kell, hogy legyen. Sorokból bármennyi lehet. Az elrendezéshez div elemeket használunk ezeket tehetjük az oszlopokra.
+</p>
+<div class="table sectionedit8"><table class="inline">
+	<tbody><tr class="row0">
+		<td class="col0"> „doboz 1” = 4 egység </td><td class="col1"> „doboz 2” = 4 egység </td><td class="col2"> „doboz 3” = 4 egység </td>
+	</tr>
+</tbody></table></div>
+
+<p>
+Ez összesen 12 egység.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-md-4"</span>&gt;</span>Tartalom<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-md-4"</span>&gt;</span>Tartalom<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-md-4"</span>&gt;</span>Tartalom<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+Az elrendezés kezelő mindig igazítja a dobozok helyzetét a felbontáshoz. A táblázatban a különböző felbontásokhoz használható osztályok láthatóak.
+</p>
+<div class="table sectionedit9"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 centeralign" colspan="5">  Elrendezések működése   </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 centeralign">  layout system  </td><td class="col1 centeralign">  Telefonok( &lt;768px )  </td><td class="col2 centeralign">  Tabletek( ≥768px )  </td><td class="col3 centeralign">  Asztali gépek( ≤992px )  </td><td class="col4 centeralign">  Asztali gépek( ≤1200px )  </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> Maximum container szélesség  </td><td class="col1 centeralign">  Auto  </td><td class="col2 centeralign">  750px  </td><td class="col3 centeralign">  970px  </td><td class="col4 centeralign">  1170px  </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> Viselkedés   </td><td class="col1 centeralign">  Kitölti a teljes szélességet  </td><td class="col2 centeralign">  Rendeződik az adott felbontáshoz  </td><td class="col3 centeralign">  Rendeződik az adott felbontáshoz  </td><td class="col4 centeralign">  Rendeződik az adott felbontáshoz  </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> Osztály  </td><td class="col1 centeralign">  col-xs-  </td><td class="col2 centeralign">  col-sm-  </td><td class="col3 centeralign">  col-md-  </td><td class="col4 centeralign">  col-lg-  </td>
+	</tr>
+</tbody></table></div>
+
+<p>
+Konkrét megvalósítás:
+</p>
+<pre class="code html4strict"><span class="sc0">&lt;!DOCTYPE html&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/html.html"><span class="kw2">html</span></a>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/head.html"><span class="kw2">head</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">charset</span><span class="sy0">=</span><span class="st0">"UTF-8"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">http-equiv</span><span class="sy0">=</span><span class="st0">"X-UA-Compatible"</span> <span class="kw3">content</span><span class="sy0">=</span><span class="st0">"IE=edge"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">"viewport"</span> <span class="kw3">content</span><span class="sy0">=</span><span class="st0">"width=device-width, initial-scale=1"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/link.html"><span class="kw2">link</span></a> <span class="kw3">rel</span><span class="sy0">=</span><span class="st0">"stylesheet"</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"https://code.jquery.com/jquery-3.3.1.min.js"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/head.html"><span class="kw2">head</span></a>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/body.html"><span class="kw2">body</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-md-3"</span>&gt;</span>
+                <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;</span>md-3 doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-md-3"</span>&gt;</span>
+                <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz jobbDoboz"</span>&gt;</span>md-3 doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-md-3"</span>&gt;</span>
+                <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;</span>md-3 doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-md-3"</span>&gt;</span>
+                <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz jobbDoboz"</span>&gt;</span>md-3 doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-6"</span>&gt;</span>
+                <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;</span>sm-6 doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-6"</span>&gt;</span>
+                <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz jobbDoboz"</span>&gt;</span>sm-6 doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+            <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/body.html"><span class="kw2">body</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/html.html"><span class="kw2">html</span></a>&gt;</span></pre>
+
+<p>
+A hozzá tartozó css:
+</p>
+<pre class="code css"><span class="re1">.container</span> <span class="br0">{</span>
+    <span class="kw1">color</span><span class="sy0">:</span> <span class="kw4">black</span><span class="sy0">;</span>
+<span class="br0">}</span>
+<span class="re1">.row</span> <span class="br0">{</span>
+    <span class="kw1">margin-top</span><span class="sy0">:</span> <span class="re3">15px</span><span class="sy0">;</span>
+<span class="br0">}</span>
+&nbsp;
+<span class="re1">.balDoboz</span> <span class="br0">{</span>
+    <span class="kw1">padding</span><span class="sy0">:</span> <span class="re3">15px</span><span class="sy0">;</span>
+    <span class="kw1">font-size</span><span class="sy0">:</span> <span class="re3">18px</span><span class="sy0">;</span>
+    <span class="kw1">min-height</span><span class="sy0">:</span> <span class="re3">200px</span><span class="sy0">;</span>
+    <span class="kw1">background</span><span class="sy0">:</span> <span class="kw4">grey</span><span class="sy0">;</span>
+    <span class="kw1">margin-bottom</span><span class="sy0">:</span> <span class="re3">15px</span><span class="sy0">;</span>
+<span class="br0">}</span>
+&nbsp;
+<span class="re1">.jobbDoboz</span> <span class="br0">{</span>
+    <span class="kw1">background</span><span class="sy0">:</span> <span class="kw4">lightgrey</span><span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+<p>
+Ha a böngészőnek változtatjuk a méretét, láthatjuk, hogyan változik az elrendezés.
+Persze nem kell mindig egyenlő arányban felosztani a teret, lehet több variációt is használni, fontos, hogy a végeredmény mindig 12 legyen. Például 3 - 9, 4 - 8, 12, 6 - 6 arányban is fel lehet osztani.
+</p>
+
+<p>
+A felbontás szerinti elrendezéshez meg kell adnunk az adott mérethez tartozó egység méretet.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-4 col-md-3"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz jobbDoboz"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-8 col-md-7"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-12 col-md-2"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz jobbDoboz flex"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+Ha összeadjuk az „sm” egységeit akkor láthatjuk, hogy az jóval több mint 12. A bootstrap ilyenkor hozzáad még egy sort és oda rendezi a túlcsorduló elemeket.
+</p>
+
+</div>
+
+<h3 class="sectionedit10" id="eltolas">Eltolás</h3>
+<div class="level3">
+
+<p>
+Lehetőségünk van természetesen arra is, hogy ne töltsük fel a sorokat tartalommal teljes szélességben. Ilyenkor az offset osztályt kell használnunk. Ez az osztály eltolja a dobozt jobbra az offset méretével.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-4"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;</span>4 egységes doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-8"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz jobbDoboz"</span>&gt;</span>8 egységes doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>        
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-8 col-sm-offset-4"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;</span>8 egységes doboz 4 egységgel eltolva<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+Látható, hogy a második sorban 4 egységgel jobbra lett tolva a 8 egységes doboz.
+</p>
+
+</div>
+
+<h3 class="sectionedit11" id="fix_es_fluid_elrendezes">Fix és Fluid elrendezés</h3>
+<div class="level3">
+
+<p>
+A fix elrendezés esetén nem töltik ki a teljes oldalt a megjelenített elemek, a fluid elrendezés esetén viszont igen. Ehhez a fluid osztályt kell használnunk.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container-fluid"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-4"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;</span>4 egységes doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-8"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz jobbDoboz"</span>&gt;</span>8 egységes doboz<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"row"</span>&gt;</span>        
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"col-sm-8 col-sm-offset-4"</span>&gt;</span>
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"balDoboz"</span>&gt;</span>8 egységes doboz 4 egységgel eltolva<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+</div>
+
+<h3 class="sectionedit12" id="reszponziv_elrendezes">Reszponzív elrendezés</h3>
+<div class="level3">
+
+<p>
+Szabályozhatjuk, hogy melyik felbontásban milyen elemek jelenjenek meg. Ezt két módon tehetjük meg. A visible és a hidden osztályokkal. A visible láthatóvá teszi a meghatározott elemet míg a hidden elrejti.
+</p>
+
+<p>
+Először nézzük a megjelenítést:
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"visible-xs"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem csak 768px alatt látszik.<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"visible-sm"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem csak 768px és 992px között látszik<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"visible-md"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem csak 992px és 1200px között látszik<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"visible-lg"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem csak 1200px felett látszik<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+És most nézzük az elrejtést:
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"hidden-xs"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem 768px alatt nem látszik.<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"hidden-sm"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem 768px és 992px között nem látszik<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"hidden-md"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem 992px és 1200px között nem látszik<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"hidden-lg"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>Ez az elem 1200px felett nem látszik<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+</div>
+
+<h3 class="sectionedit13" id="szinek">Színek</h3>
+<div class="level3">
+
+<p>
+A bootstrap alapból definiál színeket melyek használhatók a legtöbb elemen mint például gombokon, szövegeken, dobozokon.
+Az alap színek:
+</p>
+
+<p>
+default
+</p>
+
+<p>
+
+<img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/fetch.php" width="150" height="50" style="border: solid 1px grey">
+
+</p>
+
+<p>
+primary
+</p>
+
+<p>
+
+<img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/fetch(1).php" width="150" height="50">
+
+</p>
+
+<p>
+success
+</p>
+
+<p>
+
+<img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/fetch(2).php" width="150" height="50">
+
+</p>
+
+<p>
+info
+</p>
+
+<p>
+
+<img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/fetch(3).php" width="150" height="50">
+
+</p>
+
+<p>
+warning
+</p>
+
+<p>
+
+<img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/fetch(4).php" width="150" height="50">
+
+</p>
+
+<p>
+danger
+</p>
+
+<p>
+
+<img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/fetch(5).php" width="150" height="50">
+
+</p>
+
+</div>
+
+<h3 class="sectionedit14" id="gombok">Gombok</h3>
+<div class="level3">
+
+<p>
+A gombok használatához a btn osztályt kell használnunk. Először meg kell adni a gomb típusát majd az osztályt és utána a többi paramétert mint például a gomb színét és a méretét.
+</p>
+
+<p>
+A példában a bootstrapben definiált méretek és színek láthatók.<br>
+Extra nagy: - btn-lg, normál: - btn, kicsi: - btn-sm, extra kicsi: - btn-xs.<br>
+A színek: Default, Success, Primary, Info, Danger, Warning.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-default btn-lg"</span>&gt;</span>Default<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success btn-lg"</span>&gt;</span>Success<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary btn-lg"</span>&gt;</span>Primary<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info btn-lg"</span>&gt;</span>Info<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-danger btn-lg"</span>&gt;</span>Danger<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-warning btn-lg"</span>&gt;</span>Warning<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+&nbsp;
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/hr.html"><span class="kw2">hr</span></a>&gt;</span>
+&nbsp;
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-default"</span>&gt;</span>Default<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success"</span>&gt;</span>Success<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Primary<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Info<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-danger"</span>&gt;</span>Danger<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-warning"</span>&gt;</span>Warning<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+&nbsp;
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/hr.html"><span class="kw2">hr</span></a>&gt;</span>
+&nbsp;
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-default btn-sm"</span>&gt;</span>Default<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success btn-sm"</span>&gt;</span>Success<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary btn-sm"</span>&gt;</span>Primary<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info btn-sm"</span>&gt;</span>Info<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-danger btn-sm"</span>&gt;</span>Danger<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-warning btn-sm"</span>&gt;</span>Warning<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+&nbsp;
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/hr.html"><span class="kw2">hr</span></a>&gt;</span>
+&nbsp;
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-default btn-xs"</span>&gt;</span>Default<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success btn-xs"</span>&gt;</span>Success<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary btn-xs"</span>&gt;</span>Primary<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info btn-xs"</span>&gt;</span>Info<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-danger btn-xs"</span>&gt;</span>Danger<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-warning btn-xs"</span>&gt;</span>Warning<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./oktatas_web_front-end_framework_bootstrap [szit]_files/bootstrap.min.css">
+    <script src="./oktatas_web_front-end_framework_bootstrap [szit]_files/bootstrap.min.js.letöltés"></script>
+    <script src="./oktatas_web_front-end_framework_bootstrap [szit]_files/jquery-3.3.1.min.js.letöltés"></script>
+
+
+</p><div>
+    <button type="button" class="btn btn-default">Default</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+</div>
+
+<p></p>
+
+<p>
+Lehetőség van az elemek teljes szélességét kitölteni a gombbal, ehhez a btn-block osztályt kell használnunk. Ez az osztály kifeszíti a gombot az őt tartalmazó elem teljes szélességére.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-warning btn-lg btn-block"</span>&gt;</span>Gomb 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-danger btn-lg btn-block"</span>&gt;</span>Gomb 2<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div>
+	<button type="button" class="btn btn-warning btn-lg btn-block">Gomb 1</button>
+	<button type="button" class="btn btn-danger btn-lg btn-block">Gomb 2</button>
+</div>
+
+<p></p>
+
+</div>
+
+<h3 class="sectionedit15" id="gombcsoportok">Gombcsoportok</h3>
+<div class="level3">
+
+<p>
+Gombcsoportok létrehozásához a btn-group osztályt használjuk.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 2<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 3<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 4<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div class="btn-group">
+    <button type="button" class="btn btn-primary">Gomb 1</button>
+    <button type="button" class="btn btn-primary">Gomb 2</button>
+    <button type="button" class="btn btn-primary">Gomb 3</button>
+    <button type="button" class="btn btn-primary">Gomb 4</button>
+</div>
+
+<p></p>
+
+<p>
+Lehetőség van a gombcsoport vertikális elrendezésére is, ehhez a btn-group-vertical osztályra van szükségünk.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group-vertical"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Gomb 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Gomb 2<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Gomb 3<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Gomb 4<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div class="btn-group-vertical">
+    <button type="button" class="btn btn-info">Gomb 1</button>
+    <button type="button" class="btn btn-info">Gomb 2</button>
+    <button type="button" class="btn btn-info">Gomb 3</button>
+    <button type="button" class="btn btn-info">Gomb 4</button>
+</div>
+
+<p></p>
+
+<p>
+Ha azt szeretnénk, hogy a gombcsoportunk kitöltse az őt tartalmazó elem teljes szélességét akkor a gombcsoportot ( btn-group ) bele kell raknunk egy újabb dobozba melyen a btn-group-justified osztályt kell alkalmazni.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group btn-group-justified"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success"</span>&gt;</span>Gomb 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success"</span>&gt;</span>Gomb 2<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success"</span>&gt;</span>Gomb 3<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-success"</span>&gt;</span>Gomb 4<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div class="btn-group btn-group-justified">
+    <div class="btn-group">
+        <button type="button" class="btn btn-success">Gomb 1</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-success">Gomb 2</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-success">Gomb 3</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-success">Gomb 4</button>
+    </div>
+</div>
+
+<p></p>
+
+<p>
+Lehetőség van több gombcsoport létrehozására is egy soron belül. Ilyenkor a btn-group osztályt szintén egy újabb dobozba kell tennünk. Ennek a doboznak az osztálya a btn-toolbar.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-toolbar"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 2<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 3<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-primary"</span>&gt;</span>Gomb 4<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn-group"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Gomb 5<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Gomb 6<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-info"</span>&gt;</span>Gomb 7<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div class="btn-toolbar">
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Gomb 1</button>
+        <button type="button" class="btn btn-primary">Gomb 2</button>
+        <button type="button" class="btn btn-primary">Gomb 3</button>
+        <button type="button" class="btn btn-primary">Gomb 4</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-info">Gomb 5</button>
+        <button type="button" class="btn btn-info">Gomb 6</button>
+        <button type="button" class="btn btn-info">Gomb 7</button>
+    </div>
+</div>
+
+<p></p>
+
+</div>
+
+<h3 class="sectionedit16" id="ikonok">Ikonok</h3>
+<div class="level3">
+
+<p>
+Az ikonok használatához a glyphicon osztályra van szükségünk. Ez az osztály csak a bootstrap 3-as verzióig támogatott, a 4-es verzióban már nem használhatjuk.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"glyphicon glyphicon-search"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"glyphicon glyphicon-play"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"glyphicon glyphicon-new-window"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+Az ikonok teljes listája itt: <a href="https://getbootstrap.com/docs/3.3/components/">Ikon lista</a>
+</p>
+
+<p>
+Természetesen az ikonokat több elemre is rá lehet tenni, például gombokra. Ilyenkor az ikont &lt;span&gt;&lt;/span&gt; elemre tesszük.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-default"</span>&gt;&lt;<a target="_blank" href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"glyphicon glyphicon-search"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a>&gt;</span> Keresés<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-default"</span>&gt;&lt;<a target="_blank" href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"glyphicon glyphicon-play"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a>&gt;</span> Lejátszás<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"button"</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"btn btn-default"</span>&gt;&lt;<a target="_blank" href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"glyphicon glyphicon-new-window"</span>&gt;&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/span.html"><span class="kw2">span</span></a>&gt;</span> Új ablak<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div class="container">
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Keresés</button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span> Lejátszás</button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-new-window"></span> Új ablak</button>
+</div>
+
+<p></p>
+
+</div>
+
+<h3 class="sectionedit17" id="lista">Lista</h3>
+<div class="level3">
+
+<p>
+Készíthetünk egyszerű listát a list-unstyled osztály segítségével.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/ul.html"><span class="kw2">ul</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"list-unstyled"</span>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 2
+            <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/ul.html"><span class="kw2">ul</span></a>&gt;</span>
+	        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Allistaelem 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+	        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Allistaelem 2<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+	    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/ul.html"><span class="kw2">ul</span></a>&gt;</span>
+	<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 3<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+	<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 4<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/ul.html"><span class="kw2">ul</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div class="container" style="color: black;">
+    <ul class="list-unstyled">
+        <li>Listaelem 1</li>
+	<li>Listaelem 2
+	    <ul>
+		<li>Allistaelem 1</li>
+		<li>Allistaelem 2</li>
+	    </ul>
+	</li>
+	<li>Listaelem 3</li>
+	<li>Listaelem 4</li>
+    </ul>
+</div>
+
+<p></p>
+
+<p>
+A listát elrendezhetjük szalagmenű szerűen is. Ehhez a list-inline osztályt kell használnunk.
+</p>
+<pre class="code html4strict"><span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"container"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/ul.html"><span class="kw2">ul</span></a> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">"list-inline"</span>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 1<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 2<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 3<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 4<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+        <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>Listaelem 5<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/ul.html"><span class="kw2">ul</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+
+<p>
+
+</p><div class="container">
+    <ul class="list-inline">
+        <li>Listaelem 1</li>
+        <li>Listaelem 2</li>
+        <li>Listaelem 3</li>
+        <li>Listaelem 4</li>
+        <li>Listaelem 5</li>
+    </ul>
+</div>
+
+<p></p>
+
+</div>
+
+<h3 class="sectionedit18" id="form">Form</h3>
+<div class="level3">
+
+</div>
+
+<h3 class="sectionedit19" id="beviteli_mezo">Beviteli mező</h3>
+<div class="level3">
+
+</div>
+
+<h3 class="sectionedit20" id="tabla">Tábla</h3>
+<div class="level3">
+
+</div>
+
+<h3 class="sectionedit21" id="kep">Kép</h3>
+<div class="level3">
+
+</div>
+
+<h3 class="sectionedit22" id="navigacios_szalag">Navigációs szalag</h3>
+<div class="level3">
+
+</div>
+
+                    <!-- wikipage stop -->
+                                    </div>
+
+                <div class="docInfo"><bdi>oktatas/web/front-end_framework/bootstrap.txt</bdi> · Utolsó módosítás: 2019/08/22 20:59 szerkesztette: <bdi>admin</bdi></div>
+
+                            </div></div><!-- /content -->
+
+            <hr class="a11y">
+
+            <!-- PAGE ACTIONS -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Eszközök az oldalon</h3>
+                <div class="tools">
+                    <ul>
+                        <li class="source"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=edit" title="Oldalforrás megtekintése [v]" rel="nofollow" accesskey="v"><span>Oldalforrás megtekintése</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m.12 13.5l3.74 3.74 1.42-1.41-2.33-2.33 2.33-2.33-1.42-1.41-3.74 3.74m11.16 0l-3.74-3.74-1.42 1.41 2.33 2.33-2.33 2.33 1.42 1.41 3.74-3.74z"></path></svg></a></li><li class="revs"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=revisions" title="Korábbi változatok [o]" rel="nofollow" accesskey="o"><span>Korábbi változatok</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11 7v5.11l4.71 2.79.79-1.28-4-2.37V7m0-5C8.97 2 5.91 3.92 4.27 6.77L2 4.5V11h6.5L5.75 8.25C6.96 5.73 9.5 4 12.5 4a7.5 7.5 0 0 1 7.5 7.5 7.5 7.5 0 0 1-7.5 7.5c-3.27 0-6.03-2.09-7.06-5h-2.1c1.1 4.03 4.77 7 9.16 7 5.24 0 9.5-4.25 9.5-9.5A9.5 9.5 0 0 0 12.5 2z"></path></svg></a></li><li class="backlink"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap&amp;do=backlink" title="Hivatkozások" rel="nofollow"><span>Hivatkozások</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.59 13.41c.41.39.41 1.03 0 1.42-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0 5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.982 2.982 0 0 0 0-4.24 2.982 2.982 0 0 0-4.24 0l-3.53 3.53a2.982 2.982 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0 5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.982 2.982 0 0 0 0 4.24 2.982 2.982 0 0 0 4.24 0l3.53-3.53a2.982 2.982 0 0 0 0-4.24.973.973 0 0 1 0-1.42z"></path></svg></a></li><li class="top"><a href="https://szit.hu/doku.php?id=oktatas:web:front-end_framework:bootstrap#dokuwiki__top" title="Vissza a tetejére [t]" rel="nofollow" accesskey="t"><span>Vissza a tetejére</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path></svg></a></li>                    </ul>
+                </div>
+            </div>
+        </div><!-- /wrapper -->
+
+        
+<!-- ********** FOOTER ********** -->
+<div id="dokuwiki__footer"><div class="pad">
+    <div class="license">Hacsak máshol nincs egyéb rendelkezés, ezen wiki tartalma a következő licenc alatt érhető el: <bdi><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" class="urlextern" target="_blank">CC Attribution-Share Alike 4.0 International</a></bdi></div>
+    <div class="buttons">
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/cc-by-sa.png" alt="CC Attribution-Share Alike 4.0 International"></a>        <a href="https://www.dokuwiki.org/donate" title="Donate" target="_blank"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/button-donate.gif" width="80" height="15" alt="Donate"></a>
+        <a href="https://php.net/" title="Powered by PHP" target="_blank"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/button-php.gif" width="80" height="15" alt="Powered by PHP"></a>
+        <a href="https://validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/button-html5.png" width="80" height="15" alt="Valid HTML5"></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/button-css.png" width="80" height="15" alt="Valid CSS"></a>
+        <a href="https://dokuwiki.org/" title="Driven by DokuWiki" target="_blank"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/button-dw.png" width="80" height="15" alt="Driven by DokuWiki"></a>
+    </div>
+</div></div><!-- /footer -->
+
+    </div></div><!-- /site -->
+
+    <div class="no"><img src="./oktatas_web_front-end_framework_bootstrap [szit]_files/indexer.php" width="2" height="1" alt=""></div>
+    <div id="screen__mode" class="no"></div>
+
+</body></html>

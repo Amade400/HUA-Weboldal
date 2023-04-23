@@ -1,0 +1,94 @@
+h1, h2, h3, h4, h5, p, label, .date{
+    color: white;
+}
+
+.bg{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/HUA_header.jpg);
+}
+
+
+#MainContent{
+    margin-top: 3rem;
+    /*width: 85%;*/
+	box-shadow: 0px 0px 30px rgb(0,0,0);
+}
+
+@media only screen and (max-width: 950px){
+    #MainContent{        
+        width: 100%;
+    }
+    /*.navbar{
+        padding-bottom: 30rem;
+        padding-top: 1px;
+    }*/
+}
+
+/*.navbar{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}*/
+
+
+#news-sor{
+    border-bottom: rgb(74,74,74) 2px solid;
+    padding-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#news-sor-last{
+    /*border-bottom: rgb(74,74,74) 2px solid;*/
+    padding-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    border-bottom: none;
+}
+
+#news-kep{
+    width: 150px;
+}
+
+/*Footer CSS */ 
+#footer{
+    text-align: right;
+}
+#socialpic{
+    display: inline-block;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.carouselCim{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one */
+    display: flex;
+    align-items: center;
+}

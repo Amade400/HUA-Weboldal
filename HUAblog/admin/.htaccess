@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Azonositas"
+AuthUserFile C:/xampp/htdocs/Weboldal/admin/.htpasswd
+require valid-user

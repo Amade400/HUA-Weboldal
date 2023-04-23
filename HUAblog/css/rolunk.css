@@ -1,0 +1,54 @@
+
+.bg{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/HUA_header.jpg) ;
+}
+h1, h2, h3, h4, h5, h6, p, li, label{
+    color: white;
+}
+
+#header{
+    size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#bekezdes1
+{
+    border-left:  rgb(255,255,255) 1px solid;
+    padding-left: 10px;
+    padding: auto;
+    text-align: center;
+}
+#bekezdes1 p h3 h6 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container-fluid{
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+#MainContent{
+    margin-top: 3rem;
+    width: 85%;
+	box-shadow: 0px 0px 30px rgb(0,0,0);
+}
+
+@media only screen and (max-width: 950px){
+    #MainContent{        
+        width: 100%;
+    }
+    /*.navbar{
+        padding-bottom: 30rem;
+        padding-top: 1px;
+    }*/
+}
